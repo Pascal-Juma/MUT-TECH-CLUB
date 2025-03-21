@@ -1,0 +1,6 @@
+.btn{
+    background-color: var(--color-red);
+    font-size: 1.8rem;
+    font-family: var(--secondary-font);
+    padding: .6rem;
+}

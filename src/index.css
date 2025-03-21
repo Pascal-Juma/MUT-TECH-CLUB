@@ -24,7 +24,9 @@ ol, ul{
 :root{
   --primary-color: #050505;
   --secondary-color: #FFFFFF;
+  --color-grey: #FFFFFFCC;
   --grey-color: #333333;
+  --color-red: #E41F05;
   --prime-font: 'Libre Baskerville', serif;
   --secondary-font: 'Roboto', sans-serif;
   --tertiary-font: 'Poppins', sans-serif;

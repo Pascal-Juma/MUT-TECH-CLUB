@@ -4,3 +4,6 @@
     font-family: var(--secondary-font);
     padding: .6rem;
 }
+.btn:hover{
+    background-color: rgba(228, 31, 5, .8);
+}

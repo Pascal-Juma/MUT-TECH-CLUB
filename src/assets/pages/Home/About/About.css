@@ -78,10 +78,47 @@
     justify-content: center;
     gap: 1rem;
 }
+.more-left-icons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 4rem;
+}
+.spanner-icon{
+    position: absolute;
+    top: 73%;
+    right: 0;
+}
+.screw-driver{
+    position: absolute;
+    top: 50%;
+    right: 80%;
+    transform: rotate(-10deg);
+}
+.more-left svg{
+    font-size: 5rem;
+    color: var(--color-red);
+}
+.more-right-icons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
 .more-right{
     display: flex;
     justify-content: center;
     gap: 1rem;
+}
+.more-right svg{
+    font-size: 5rem;
+    color: var(--color-red);
+}
+.handshake-icon{
+    position: absolute;
+    top: 53%;
+    right: 0;
 }
 .more-title{
     font-size: 2rem;
@@ -94,6 +131,11 @@
 }
 .more-paragragh{
     font-size: 1.6rem;
+    color: var(--color-grey);
+}
+.more-stats{
+    font-size: 3rem;
+    font-weight: 600;
     color: var(--color-grey);
 }
 .about-bottom{

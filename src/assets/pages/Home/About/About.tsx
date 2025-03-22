@@ -3,6 +3,11 @@ import aboutLeft from '../../../images/about-left.jpg'
 import aboutRight from '../../../images/about-right.jpg'
 import Intro from '../../../components/Intro/Intro'
 import Button from '../../../components/Button/Button'
+import { BiCog } from "react-icons/bi";
+import { SiGooglecloudspanner } from "react-icons/si";
+import { MdGroups } from "react-icons/md";
+import { FaRegHandshake } from "react-icons/fa6";
+import { GiScrewdriver } from "react-icons/gi";
 
 function About() {
   return (
@@ -27,7 +32,15 @@ function About() {
             </div>
             <div className="about-more">
                 <div className="more-left">
-                    introduction
+                    <div className="more-left-icons">
+                    <BiCog />
+                    <div className="spanner-icon">
+                    <SiGooglecloudspanner />
+                    </div>
+                    <div className="screw-driver">
+                    <GiScrewdriver />
+                    </div>
+                    </div>
                     <div className="more-wording">
                     <p className="more-title">
                         Best Services
@@ -38,13 +51,18 @@ function About() {
                     </div>
                 </div>
                 <div className="more-right">
-                    icon
+                    <div className="more-right-icons">
+                        < MdGroups />
+                        <div className="handshake-icon">
+                        <FaRegHandshake />
+                        </div>
+                    </div>
                     <div className="more-wording">
                         <p className="more-title">
-                            24/7 call Support
+                            Satisfied members
                         </p>
-                        <p className="more-paragragh">
-                            Consectetur  veniam adipisicing Voluptas aperiam.
+                        <p className="more-stats">
+                            6,581+
                         </p>
                     </div>
                 </div>

@@ -24,12 +24,14 @@ ol, ul{
 :root{
   --primary-color: #0F0D1D;
   --secondary-color: #FFFFFF;
+  --color-black: #050505;
   --color-white-dark: #FFFFFFCC;
   --grey-color: #333333;
   --color-grey: #505050;
   --color-red: #E41F05;
   --color-green: #0bee0b;
   --color-orange: #C5875D;
+  --color-gold: #F39735;
   --prime-font: 'Libre Baskerville', serif;
   --secondary-font: 'Roboto', sans-serif;
   --tertiary-font: 'Poppins', sans-serif;

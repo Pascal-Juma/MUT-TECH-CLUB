@@ -1,0 +1,50 @@
+.plate-container{
+    background-color: var(--color-white-dark);
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 40rem;
+    border-radius: .2rem;
+    box-shadow: .1rem .1rem .5rem rgba(5, 5, 5, .5);
+}
+.plate-top{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-inline: 2rem;
+    padding-top: .5rem;
+}
+.members-image{
+    width: 11rem;
+    height: 11rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.members-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.members-name{
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
+    font-family: var(--prime-font);
+}
+.members-role{
+    font-size: 1.6rem;
+    color: var(--color-grey);
+}
+.members-ratings svg{
+    color: var(--color-gold);
+    font-size: 2.6rem;
+}
+.members-remarks svg{
+    color: var(--color-red);
+    font-size: 6rem;
+}
+.reviews-paragragh{
+    font-size: 1.5rem;
+    color: var(--color-grey);
+    text-align: center;
+}

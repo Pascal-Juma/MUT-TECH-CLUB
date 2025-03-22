@@ -2,6 +2,7 @@ import './Home.css'
 import Header from './Header/Header'
 import Hero from './Hero/Hero'
 import About from './About/About'
+import Testimonials from './Testimonials/Testimonials'
 
 function Home() {
   return (
@@ -9,6 +10,7 @@ function Home() {
       <Header />
       <Hero />
       <About />
+      <Testimonials />
     </>
   )
 }

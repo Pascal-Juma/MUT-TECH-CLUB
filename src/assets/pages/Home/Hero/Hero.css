@@ -27,10 +27,30 @@
     width: 67rem;
     z-index: 2;
 }
+@media screen and (max-width: 53.875em){
+    .carousel-caption{
+        position: absolute;
+        bottom: 30%;
+        left: 30%;
+        width: 30rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .hero-tagline{
+        font-size: 2rem;
+    }
+}
 .hero-tagline{
     font-size: 7rem;
     font-weight: 700;
 }
 .hero-mission{
     font-size: 2.2rem;
+}
+.hero-title{
+    font-family: var(--prime-font);
+    font-style: italic;
+    font-size: 2rem;
+    color: var(--color-white-dark);
+    font-weight: 700;
 }

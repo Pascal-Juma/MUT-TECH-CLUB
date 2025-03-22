@@ -8,6 +8,12 @@
     padding-inline: 2rem;
     background-color: var(--secondary-color);
 }
+@media screen and (max-width: 53.875em){
+    .header{
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
 .header-navigation{
     display: flex;
     justify-content: space-between;  
@@ -23,7 +29,7 @@
     font-size: 2rem;
 }
 .nav-links-list a{
-    color: var(--primary-color);
+    color: var(--color-grey);
     text-transform: capitalize;
     font-weight: 500;
 }

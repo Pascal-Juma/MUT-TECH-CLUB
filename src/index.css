@@ -22,12 +22,16 @@ ol, ul{
   list-style: none;
 }
 :root{
-  --primary-color: #050505;
+  --primary-color: #0F0D1D;
   --secondary-color: #FFFFFF;
-  --color-grey: #FFFFFFCC;
+  --color-white-dark: #FFFFFFCC;
   --grey-color: #333333;
+  --color-grey: #505050;
   --color-red: #E41F05;
+  --color-green: #0bee0b;
+  --color-orange: #C5875D;
   --prime-font: 'Libre Baskerville', serif;
   --secondary-font: 'Roboto', sans-serif;
   --tertiary-font: 'Poppins', sans-serif;
+  --border: .1rem solid var(--color-red);
 }

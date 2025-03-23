@@ -1,0 +1,9 @@
+.pallate-info{
+    font-size: 1.9rem;
+    font-family: var(--prime-font);
+    color: var(--secondary-color);
+}
+.pallate-info svg{
+    font-size: 2rem;
+    margin-right: .7rem;
+}

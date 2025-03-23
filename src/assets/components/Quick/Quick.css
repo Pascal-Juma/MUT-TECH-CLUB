@@ -1,0 +1,8 @@
+.footer-nav-list a{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    color: var(--secondary-color);
+}
+.footer-nav-list a:hover{
+    color: var(--color-red);
+}

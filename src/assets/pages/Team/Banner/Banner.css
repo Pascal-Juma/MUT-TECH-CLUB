@@ -1,0 +1,27 @@
+.banner-section{
+    height: 88.1vh;
+    background-image: linear-gradient(to left, rgba(5, 5, 5, .2), rgba(5, 5, 5, .7)), url(../../../images/our-team.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.banner-container{
+    max-width: 40rem;
+    margin-left: 3rem;
+}
+.tagline-header{
+    font-family: var(--prime-font);
+    font-size: 3rem;
+    color: var(--color-red);
+    font-style: italic;
+}
+.tagline-header svg{
+    font-size: 4.5rem;
+}
+.tagline-message{
+    color: var(--secondary-color);
+    font-family: var(--tertiary-font);
+    font-size: 5rem;
+    font-weight: 600;
+}

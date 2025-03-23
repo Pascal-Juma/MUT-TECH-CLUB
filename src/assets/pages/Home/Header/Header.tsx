@@ -5,7 +5,7 @@ import logoImg from '../../../images/logo.png'
 
 const navLinks = [
     {to: '/', label: "home"},
-    {to: '/team', label: "team"},
+    {to: '/team', label: " our team"},
     {to: '/tracks', label: "tracks"},
     {to: '/events', label: "events"},
 ]

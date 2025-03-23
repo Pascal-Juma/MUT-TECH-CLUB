@@ -1,9 +1,12 @@
+import Header from '../Home/Header/Header'
+import Banner from './Banner/Banner'
 import './Team.css'
 
 function Team() {
   return (
     <>
-      <h3>meet my team</h3>
+    <Header />
+    <Banner />
     </>
   )
 }

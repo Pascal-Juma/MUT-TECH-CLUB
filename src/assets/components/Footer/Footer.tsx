@@ -55,7 +55,7 @@ function Footer() {
         </div>
         <div className="footer-bottom">
             <p className="footer-rights">
-                CopyRight &copy; 2025 <span className="rights-owner">Pascal</span> Meta Labs. All Rights Reserved.
+                CopyRight &copy; 2025 <span className="rights-owner">Pascal Meta Labs.</span> All Rights Reserved.
             </p>
         </div>
       </footer>

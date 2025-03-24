@@ -74,6 +74,7 @@
 .rights-owner{
     color: var(--color-red);
     font-weight: 600;
+    /* font-family: var(--prime-font); */
 }
 .footer-in-touch{
     width: 29rem;

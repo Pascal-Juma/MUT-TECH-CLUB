@@ -17,7 +17,7 @@ function Hero() {
                             <p className="hero-title">Murang'a Univeristy Tech Club</p>
                             <h2 className="hero-tagline">Together we'll explore new things</h2>
                             <p className="hero-mission">We believe everyone deserves the chance to advance using technology.</p>
-                            <Button btn="Register Now" />
+                            <Button btn="Enroll Now" />
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="3000">
@@ -26,7 +26,7 @@ function Hero() {
                             <p className="hero-title">Murang'a Univeristy Tech Club</p>
                             <h2 className="hero-tagline">Fueling passion for tech and innovation.</h2>
                             <p className="hero-mission">Advancing the world, one innovation at a time, with creativity and passion.</p>
-                            <Button btn="Register Now" />
+                            <Button btn="Enroll Now" />
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="3000">
@@ -35,7 +35,7 @@ function Hero() {
                              <p className="hero-title">Murang'a Univeristy Tech Club</p>
                             <h2 className="hero-tagline">Innovation starts with us together.</h2>
                             <p className="hero-mission">Creating limitless possibilities through tech, transforming lives everywhere we go.</p>
-                            <Button btn="Register Now" />
+                            <Button btn="Enroll Now" />
                         </div>
                     </div>
                 </div>

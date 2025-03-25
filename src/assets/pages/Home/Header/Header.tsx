@@ -6,7 +6,7 @@ import logoImg from '../../../images/logo.png'
 const navLinks = [
     {to: '/', label: "home"},
     {to: '/team', label: " our team"},
-    {to: '/tracks', label: "tracks"},
+    {to: '/programs', label: "programs"},
     {to: '/events', label: "events"},
 ]
 
@@ -19,7 +19,7 @@ export default function Header() {
         </div>
         <HeaderNavigation />
         <div className="nav-btn">
-        <Button btn="Explore Courses" />
+        <Button btn="Explore Programs" />
         </div>
     </header>
     </>

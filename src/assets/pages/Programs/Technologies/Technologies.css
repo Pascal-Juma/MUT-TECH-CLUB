@@ -1,0 +1,9 @@
+.technologies-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-block: 5rem;
+    row-gap: 5rem;
+}

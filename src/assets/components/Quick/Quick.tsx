@@ -8,7 +8,7 @@ function Quick() {
         <ol className="footer-nav-list">
           <Links to ='/' label = "home" />
           <Links to ='/team' label= " our team" />
-          <Links to = '/tracks' label = "tracks" />
+          <Links to = '/programs' label = "programs" />
           <Links to = '/events' label = "events" />
         </ol>
       </div>

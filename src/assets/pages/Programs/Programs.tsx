@@ -1,6 +1,7 @@
 import Header from "../Home/Header/Header";
 import Super from "./Super/Super";
 import Technologies from "./Technologies/Technologies";
+import Enroll from "./Enroll/Enroll";
 import './Programs.css'
 
 function Programs() {
@@ -9,6 +10,7 @@ function Programs() {
       <Header />
       <Super />
       <Technologies />
+      <Enroll />
     </>
   )
 }

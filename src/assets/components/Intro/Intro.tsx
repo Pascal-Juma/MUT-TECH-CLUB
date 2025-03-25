@@ -9,16 +9,16 @@ function Intro({heading, sub, color}: introProps) {
     let headingStyle;
     if(color === 'red'){
         headingStyle = 'red';
-    }else if (color === 'orange'){
-        headingStyle = 'orange';
+    }else if (color === 'grey'){
+        headingStyle = 'grey';
     }
   return (
     <>
       <div className="intro-container">
-        <h1 className={color}>
+        <h1 className="intro-heading">
             {heading}
         </h1>
-        <h2 className="sub-heading">{sub}</h2>
+        <h2 className={color}>{sub}</h2>
       </div>
     </>
   )

@@ -6,7 +6,7 @@ type introProps = {
     color ? : string;
 }
 function Intro({heading, sub, color}: introProps) {
-    let headingStyle;
+    let headingStyle = '';
     if(color === 'black'){
         headingStyle = 'black';
     }else if (color === 'grey'){
@@ -18,7 +18,7 @@ function Intro({heading, sub, color}: introProps) {
         <h1 className="intro-heading">
             {heading}
         </h1>
-        <h2 className={color}>{sub}</h2>
+        <h2 className={headingStyle}>{sub}</h2>
       </div>
     </>
   )

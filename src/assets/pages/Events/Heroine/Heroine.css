@@ -1,0 +1,23 @@
+.heroine-section{
+    height: 88.1vh;
+    background-image: url(../../../images/heroine.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.heroine-container{
+    margin-left: 4rem;
+    width: 54rem;
+}
+.heroine-tagline{
+    font-size: 6.4rem;
+    font-family: var(--tertiary-font);
+    color: var(--secondary-color);
+}
+.heroine-pararagh{
+    color: var(--color-white-dark);
+    font-size: 1.7rem;
+    font-family: var(--tertiary-color);
+}

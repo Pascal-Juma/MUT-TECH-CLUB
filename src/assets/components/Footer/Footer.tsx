@@ -50,7 +50,7 @@ function Footer() {
           </p>
           <Pallate symbol={<MdLocationOn />} intouch="451T Murang'a Kiria-ini 39495 Ave.Kiharu" />
           <Pallate symbol={<MdEmail />} intouch="info.club@mutech.ac.ke" />
-          <Pallate symbol={<FaPhone />} intouch="+254 74247 1674" />
+          <Pallate symbol={<FaPhone />} intouch="+254 7777 44440" />
         </div>
         </div>
         <div className="footer-bottom">

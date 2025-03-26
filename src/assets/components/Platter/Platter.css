@@ -1,0 +1,124 @@
+.platter-container{
+    display: flex;
+    gap: 3rem;
+    width: 44%;
+    padding: .2rem;
+    border-radius: .2rem;
+    background-color: var(--color-grey-lighter);
+    box-shadow: .1rem .1rem .2rem rgba(5, 5, 5, .2);
+}
+@media screen and (max-width: 71.625em){
+    .platter-container{
+        min-width: 55rem;
+    }
+}
+@media screen and (max-width: 38.375em){
+    .platter-container{
+        flex-direction: column;
+        min-width: 29rem;
+    }
+}
+.platter-image{
+    min-width: 22rem;
+    height: 26rem;
+    overflow: hidden;
+    border-radius: .2rem;
+    position: relative;
+}
+.image-link{
+    min-width: 22rem;
+    height: 26rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(5, 5, 5, .4);
+    opacity: 0;
+}
+.image-link svg{
+    color: var(--color-red);
+    font-size: 3rem;
+}
+.image-link svg:hover{
+    cursor: pointer;
+}
+.image-link:hover{
+    opacity: 1;
+}
+.image-link:hover{
+    transform: rotateY(180deg);
+    transition: all .9s;
+}
+
+.platter-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media screen and (max-width: 71.625em){
+    .platter-details{
+        max-width: 55rem;
+    }
+}
+.platter-time{
+    color: var(--color-grey);
+    font-weight: 300;
+}
+.clock-styling{
+    margin-left: 1rem;
+}
+.platter-time svg{
+    color: var(--color-red);
+    margin-right: .5rem;
+}
+.platter-program{
+    font-family: var(--tertiary-font);
+    color: var(--color-red);
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-top: .4rem;
+}
+.platter-venue{
+    font-weight: 300;
+    color: var(--color-grey);
+    margin-top: .4rem;
+}
+.platter-venue svg{
+    color: var(--color-red);
+    margin-right: .1rem;
+}
+.venue-stylings{
+    font-weight: 500;
+    color: var(--primary-color);
+}
+.platter-lead{
+    color: var(--color-black);
+    font-size: 1.9rem;
+    font-weight: 600;
+    font-family: var(--tertiary-font);
+    margin-top: .2rem;
+}
+.expert-stylings{
+    font-family: var(--stylish-font);
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--color-red);
+    text-decoration: underline;
+}
+.platter-lesson{
+    color: var(--primary-color);
+    margin-top: .5rem;
+    font-weight: 400;
+    font-family: var(--tertiary-font);
+}
+.lesson-stylings{
+    font-weight: 300;
+    color: var(--color-grey);
+}
+.platter-cta{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+}

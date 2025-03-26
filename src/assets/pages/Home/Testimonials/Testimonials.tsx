@@ -14,7 +14,7 @@ function Testimonials() {
     <>
       <section className="testimonial-section">
         <div className="testimonial-introduction">
-            <Intro heading="Members Reviews" sub=" What our Happy Alumni & Members Say" color="red" />
+            <Intro heading="Members Reviews" sub=" What our Happy Alumni & Members Say" color="black" />
         </div>
         <div className="testimonials-highlights">
             <p className="highlights-paragraph">

@@ -1,6 +1,6 @@
 import './About.css'
-import aboutLeft from '../../../images/about-left.jpg'
-import aboutRight from '../../../images/about-right.jpg'
+import aboutLeft from '../../../about-left.jpg'
+import aboutRight from '../../../about-right.jpg'
 import Intro from '../../../components/Intro/Intro'
 import Button from '../../../components/Button/Button'
 import { BiCog } from "react-icons/bi";

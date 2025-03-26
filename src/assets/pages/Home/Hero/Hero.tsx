@@ -12,7 +12,7 @@ function Hero() {
                 </div>
                 <div className="carousel-inner" data-bs-interval="3000">
                     <div className="carousel-item active" data-bs-interval="10000">
-                        <img src="/src/assets/images/home_2_1.jpg" className="d-block w-100" alt="..." />
+                        <img src="/src/assets/home_2_1.jpg" className="d-block w-100" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
                             <p className="hero-title">Murang'a Univeristy Tech Club</p>
                             <h2 className="hero-tagline">Together we'll explore new things</h2>
@@ -21,7 +21,7 @@ function Hero() {
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="3000">
-                        <img src="/src/assets/images/hero-b.jpg" className="d-block w-100" alt="..." />
+                        <img src="/src/assets/hero-b.jpg" className="d-block w-100" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
                             <p className="hero-title">Murang'a Univeristy Tech Club</p>
                             <h2 className="hero-tagline">Fueling passion for tech and innovation.</h2>
@@ -30,7 +30,7 @@ function Hero() {
                         </div>
                     </div>
                     <div className="carousel-item" data-bs-interval="3000">
-                        <img src="/src/assets/images/hero-c.jpg" className="d-block w-100" alt="..." />
+                        <img src="/src/assets/hero-c.jpg" className="d-block w-100" alt="..." />
                         <div className="carousel-caption d-none d-md-block">
                              <p className="hero-title">Murang'a Univeristy Tech Club</p>
                             <h2 className="hero-tagline">Innovation starts with us together.</h2>

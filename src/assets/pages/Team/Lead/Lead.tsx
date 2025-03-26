@@ -6,17 +6,17 @@ import { MdOutlineSecurity } from "react-icons/md";
 import { FaAws } from "react-icons/fa6";
 import { CgFigma } from "react-icons/cg";
 import Card from '../../../components/Card/Card'
-import ndia from '../../../images/John.jpg'
-import njeri from '../../../images/Victory.jpg'
-import allan from '../../../images/Allan.jpg'
-import bridget from '../../../images/Bridget.jpg'
-import ruth from '../../../images/Ruth.jpg'
-import webster from '../../../images/Webster.jpg'
-import manase from '../../../images/Manase.jpg'
-import carolyne from '../../../images/Carolyne.jpg'
-import stanely from '../../../images/Stanley.jpg'
-import paul from '../../../images/Paul.jpg'
-import evyonne from '../../../images/Evyonne.jpg'
+import ndia from '../../../John.jpg'
+import njeri from '../../../Victory.jpg'
+import allan from '../../../Allan.jpg'
+import bridget from '../../../Bridget.jpg'
+import ruth from '../../../Ruth.jpg'
+import webster from '../../../Webster.jpg'
+import manase from '../../../Manase.jpg'
+import carolyne from '../../../Carolyne.jpg'
+import stanely from '../../../Stanley.jpg'
+import paul from '../../../Paul.jpg'
+import evyonne from '../../../Evyonne.jpg'
 import './Lead.css'
 
 function Lead() {

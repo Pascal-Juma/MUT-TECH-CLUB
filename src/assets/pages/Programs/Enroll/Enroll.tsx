@@ -1,6 +1,6 @@
 import Intro from '../../../components/Intro/Intro'
 import Button from '../../../components/Button/Button'
-import enlist from '../../../images/enroll.jpg'
+import enlist from '../../../enroll.jpg'
 import './Enroll.css'
 
 function Enroll() {

@@ -1,10 +1,10 @@
 import './Testimonials.css'
 import Intro from '../../../components/Intro/Intro'
 import Plate from '../../../components/Plate/Plate'
-import monica from '../../../images/monica.jpg'
-import pascal from '../../../images/pascal.jpg'
-import andrew from '../../../images/andrew.jpg'
-import gatzambithe from '../../../images/gatzambithe.jpg'
+import monica from '../../../monica.jpg'
+import pascal from '../../../pascal.jpg'
+import andrew from '../../../andrew.jpg'
+import gatzambithe from '../../../gatzambithe.jpg'
 import { IoMdStar,  IoMdStarHalf } from "react-icons/io";
 import { RiDoubleQuotesL } from "react-icons/ri";
 

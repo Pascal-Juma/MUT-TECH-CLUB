@@ -1,6 +1,6 @@
 import './Footer.css'
 import Pallate from '../Pallate/Pallate.tsx'
-import logoFooter from '../../images/logo.png'
+import logoFooter from '../../logo.png'
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter,  FaPhone } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";

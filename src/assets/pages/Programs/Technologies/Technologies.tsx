@@ -4,12 +4,12 @@ import { FaAppStoreIos } from "react-icons/fa";
 import { BsFillWrenchAdjustableCircleFill } from "react-icons/bs";
 import { CgFigma } from "react-icons/cg";
 import Divnin from "../../../components/Divnin/Divnin";
-import network from '../../../images/network.jpg'
-import react from '../../../images/web.jpg'
-import ios from '../../../images/app.jpg'
-import query from '../../../images/database.jpg'
-import automation from '../../../images/platform.jpg'
-import figma from '../../../images/style.webp'
+import network from '../../../network.jpg'
+import react from '../../../web.jpg'
+import ios from '../../../app.jpg'
+import query from '../../../database.jpg'
+import automation from '../../../platform.jpg'
+import figma from '../../../style.webp'
 import './Technologies.css'
 
 function Technologies() {

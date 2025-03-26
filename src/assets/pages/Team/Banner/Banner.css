@@ -1,6 +1,6 @@
 .banner-section{
     height: 88.1vh;
-    background-image: linear-gradient(to left, rgba(5, 5, 5, .2), rgba(5, 5, 5, .7)), url(../../../images/our-team.jpg);
+    background-image: linear-gradient(to left, rgba(5, 5, 5, .2), rgba(5, 5, 5, .7)), url(../../../our-team.jpg);
     background-position: center;
     background-size: cover;
     display: flex;

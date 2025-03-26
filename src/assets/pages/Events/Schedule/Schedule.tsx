@@ -2,12 +2,12 @@ import { MdLocationOn } from "react-icons/md";
 import { SlCalender } from "react-icons/sl";
 import { FaRegClock } from "react-icons/fa";
 import Platter from '../../../components/Platter/Platter'
-import robust from '../../../images/robust.jpg'
-import data from '../../../images/data.jpg'
-import deploy from '../../../images/deploy.jpg'
-import optimisation from '../../../images/optimisation.jpg'
-import scalable from '../../../images/scalable.jpg'
-import figma from '../../../images/interface.jpg'
+import robust from '../../../robust.jpg'
+import data from '../../../data.jpg'
+import deploy from '../../../deploy.jpg'
+import optimisation from '../../../optimisation.jpg'
+import scalable from '../../../scalable.jpg'
+import figma from '../../../interface.jpg'
 import './Schedule.css'
 
 function Schedule() {

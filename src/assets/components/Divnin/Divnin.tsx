@@ -1,5 +1,5 @@
 import { FaLongArrowAltRight } from "react-icons/fa";
-import veins from '../../images/veins.png'
+import veins from '../../veins.png'
 import './Divnin.css'
 
 type divninProps = {

@@ -1,7 +1,7 @@
 import './Header.css'
 import { NavLink } from 'react-router-dom';
 import Button from '../../../components/Button/Button';
-import logoImg from '../../../images/logo.png'
+import logoImg from '../../../logo.png'
 
 const navLinks = [
     {to: '/', label: "home"},

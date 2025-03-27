@@ -23,7 +23,7 @@ function About() {
         </div>
         <div className="about-details">
             <div className="about-introduction">
-                <Intro heading="About Us" sub="We Strive To Offer Intelligent Business Solutions" color="black" />
+                <Intro heading="About Us" sub="We Strive To Offer Intelligent Tech Innovations" color="black" />
             </div>
             <div className="about-values">
                 <p className="about-paragragh">

@@ -10,7 +10,7 @@ function Heroine() {
                 Learn. Innovate. Reinvent. 
             </h2>
             <p className="heroine-pararagh">
-            Power up your skills with Expert-Led sessions!
+            Power up your skills with our Expert-Led sessions!
             </p>
             <div className="heroine-cta">
                 <Button btn="Join Us"/>

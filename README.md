@@ -1,50 +1,31 @@
-# React + TypeScript + Vite
+# WELCOME TO MURANG'A UNIVERSITY TECH CLUB
+![project-preview](src/assets/preview.png)
+# 🚀 Getting Started
+Welcome to the official website of the Murang'a University Tech Club (MUTC).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is built using React.js + Typescript to provide an interactive and engaging platform for students interested in programming, technology, and innovation.
 
-Currently, two official plugins are available:
+## 🛠 Features
+✅ Dynamic Hero Section – Features an engaging image with an interactive call-to-action button for new members to join MUTC.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Structured Membership System – Allows students to sign up, track their learning progress, and receive updates on upcoming events.
 
-## Expanding the ESLint configuration
+✅ Automated Event Notifications – Sends reminders to registered members about upcoming workshops, training sessions, and club activities.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+✅ Integrated Leadership Directory – Displays profiles of the leadership team with clickable social media links for networking.
 
-- Configure the top-level `parserOptions` property like this:
+✅ Track Enrollment System – Enables students to browse available tech tracks and register for specialized learning programs.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
-```
+✅ Live Chat & Support – Provides a real-time chat feature or contact form for inquiries, mentorship, or troubleshooting assistance.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+✅ Cross-Platform Accessibility – Ensures a smooth user experience on all devices, including mobile, tablet, and desktop.
 
-```js
-// eslint.config.js
-import react from "eslint-plugin-react";
+## 📌 Prerequisites
+Before running the project, ensure you have the following installed:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: "18.3" } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs["jsx-runtime"].rules,
-  },
-});
-```
+- Node.js (Download from [nodejs.org](https://nodejs.org/))
+- npm or yarn (Comes with Node.js)
+- React.js (Installed via Vite or Create React App)
+
+## 🏆 Acknowledgments
+A huge thank you to the Teach2Give Community for their contributions and support in making this website a success. 

@@ -16,7 +16,7 @@ function Schedule() {
     <section className="schedule-section">
     <Platter visual={robust} appealing="Robust Security" calender={<SlCalender />} day="Mondays" clock={<FaRegClock />} meeting="4:00 pm -7:00 pm" lecture="Cyber Security" gps={<MdLocationOn />} venue="Computer Lab" expert="Webster Ifedha" lesson="Robust Security Measures, safeguard digital environments & conduct security audits" />
 
-    <Platter visual={figma} appealing="UI/UX Design" calender={<SlCalender />} day="Tuesday" clock={<FaRegClock />} meeting="5:00 pm -8:00 pm" lecture="UI/UX Design" gps={<MdLocationOn />} venue="Computer Lab" expert="Manase Gunga" lesson="User research, wireframing and usability testing" />
+    <Platter visual={figma} appealing="UI/UX Design" calender={<SlCalender />} day="Tuesday" clock={<FaRegClock />} meeting="5:00 pm -8:00 pm" lecture="UI/UX Design" gps={<MdLocationOn />} venue="Computer Lab" expert="Manase Gunga" lesson="User research, user-centric designs, wireframing and usability testing" />
 
     <Platter visual={scalable} appealing="Web Development" calender={<SlCalender />} day="Wednesdays" clock={<FaRegClock />} meeting="6:00 pm -9:00 pm" lecture="Web Development" gps={<MdLocationOn />} venue="Computer Lab" expert="Carolyne Githenduka" lesson="Designing, developing and deploying full-stack responsive and dynamic web applications" />
 
